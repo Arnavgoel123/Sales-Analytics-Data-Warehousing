@@ -1,0 +1,28 @@
+# Dataset (large, and often not redistributable from Kaggle)
+Superstore.csv
+*.csv
+!market_basket_rules.csv
+!customer_segments.csv
+
+# Generated outputs
+sales_forecast.png
+sales_forecast_components.png
+customer_segments.png
+
+# Secrets - never commit your real .env
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS/editor junk
+.DS_Store
+.vscode/
+*.log
+
+# Prophet/cmdstan build artifacts
+cmdstan/
